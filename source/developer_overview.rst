@@ -120,7 +120,7 @@ Here a list of the |packages| in the repository along with a short description:
 
 -  ``ament_cmake_test``
 
-   - aggregates different kinds of tests, e.g. gtest and nosetests, under a single target using `CTest <https://cmake.org/Wiki/CMake/Testing_With_CTest>`_
+   - aggregates different kinds of tests, e.g. gtest and nosetests, under a single target using `CTest <https://gitlab.kitware.com/cmake/community/wikis/doc/ctest/Testing-With-CTest>`_
 
 The ``ament_cmake_core`` |package| contains a lot of the CMake infrastructure that makes it possible to cleanly pass information between |packages| using conventional interfaces.
 This makes the |packages| have more decoupled build interfaces with other |packages|, promoting their reuse and encouraging conventions in the build systems of different |packages|.
